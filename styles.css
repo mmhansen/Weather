@@ -1,0 +1,94 @@
+html {
+  padding: 100px;
+}
+
+body {
+  background: #C9C9BF;
+}
+
+.container {
+  width: 100%;
+  min-width: 400px;
+  max-width: 400px;
+  border: 2px solid white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sunrise {
+  background: #42A5F5;
+  animation-name: bg;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.morning {
+  background: linear-gradient(yellow, red);
+  animation-name: bg;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.midday {
+  background: linear-gradient(yellow, red);
+  animation-name: bg;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.evening {
+  background: linear-gradient(yellow, red);
+  animation-name: bg;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.night {
+  background: linear-gradient(yellow, red);
+  animation-name: bg;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bg {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opaity: 1;
+  }
+}
+.tile {
+  padding: 20px;
+  text-align: center;
+  margin: 20px 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 3em;
+}
+
+p, span {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.city {
+  font-size: 2em;
+}
+
+.status {
+  padding-bottom: 10px;
+}
